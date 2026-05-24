@@ -89,11 +89,11 @@ In traditional manufacturing, product lifecycle data is fragmented across:
 
 ## 👥 Team
 
-| Name | Role | GitHub |
-|------|------|--------|
-| Manikant Kumar | Smart Contract & Blockchain | [@manikantbindass](https://github.com/manikantbindass) |
-| Abhijeet Ranjan | IIoT Integration & Architecture | [@35qu4r3d](https://github.com/35qu4r3d) |
-| Dhruv Maji | dApp Frontend & Documentation | [@Dhruv4848I](https://github.com/Dhruv4848I) |
+| Name | GitHub |
+|------|--------|
+| Manikant Kumar | [@manikantbindass](https://github.com/manikantbindass) |
+| Abhijeet Ranjan | [@35qu4r3d](https://github.com/35qu4r3d) |
+| Dhruv Maji | [@Dhruv4848l](https://github.com/Dhruv4848l) |
 
 ---
 
