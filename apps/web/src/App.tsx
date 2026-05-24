@@ -16,6 +16,8 @@ import { useEffect, useState } from "react";
 import { DPP_CONTRACT_ADDRESS, lifecycleStages, passportKinds } from "./config";
 import { manufacturingLifecycleDppAbi } from "./contractAbi";
 import { useWallet } from "./useWallet";
+import Navbar from "./Navbar";
+import ThreeBackground from "./ThreeBackground";
 
 type FormState = {
   tokenId: string;
@@ -172,7 +174,19 @@ export function App() {
   }
 
   return (
-    <main className="workspace">
+    <>
+      <ThreeBackground />
+      <Navbar
+        account={account}
+        status={status}
+        canTransact={canTransact}
+        hasWallet={hasWallet}
+        onConnect={connect}
+        onDisconnect={disconnect}
+        theme={theme}
+        onToggleTheme={toggleTheme}
+      />
+      <main className="workspace">
       <section className="hero">
         <div className="hero-copy">
           <h1>IOTA NFT Lifecycle Layer</h1>
@@ -804,6 +818,7 @@ export function App() {
         </section>
       </section>
     </main>
+    </>
   );
 }
 
