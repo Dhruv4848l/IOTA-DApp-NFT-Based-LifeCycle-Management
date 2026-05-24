@@ -1,0 +1,28 @@
+{
+  "name": "iota-dpp-nft-lifecycle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NFT-based lifecycle management layer for an IOTA-supported semantic IIoT manufacturing ecosystem.",
+  "workspaces": [
+    "apps/web",
+    "contracts"
+  ],
+  "scripts": {
+    "dev": "npm --workspace apps/web run dev",
+    "build": "npm run compile && npm --workspace apps/web run build",
+    "test": "npm --workspace contracts test",
+    "compile": "npm --workspace contracts run compile",
+    "metadata:sample": "node scripts/generate-sample-metadata.mjs"
+  },
+  "keywords": [
+    "IOTA",
+    "NFT",
+    "Digital Product Passport",
+    "IIoT",
+    "Manufacturing",
+    "Semantic Web",
+    "Digital Twin"
+  ],
+  "author": "UFG Student Team: Manikant Kumar, Dhruv Maji, Abhijeet Ranjan",
+  "license": "MIT"
+}
