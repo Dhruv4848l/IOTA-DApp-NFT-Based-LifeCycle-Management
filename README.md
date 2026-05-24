@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Banner — self-hosted SVG (circuit texture, particles, glow, typewriter) -->
-<img src="assets/banner.svg" alt="IOTA DPP NFT Lifecycle Management" width="100%"/>
+<img src="assets/banner.svg" alt="IOTA DApp NFT Lifecycle Management" width="100%"/>
 
 <br/>
 
@@ -23,7 +23,7 @@
 
 ## 🧠 What Is This Project?
 
-> **IOTA DPP NFT Lifecycle Management** is a Web3 infrastructure that creates a **permanent, tamper-proof digital identity** for every physical product in a manufacturing ecosystem — stored as an NFT on the **IOTA EVM blockchain**.
+> **IOTA DApp NFT Lifecycle Management** is a Web3 infrastructure that creates a **permanent, tamper-proof digital identity** for every physical product in a manufacturing ecosystem — stored as an NFT on the **IOTA EVM blockchain**.
 
 Think of it as a **living passport** for industrial assets. Every time a machine component is created, inspected, shipped, maintained, or retired, that event is cryptographically recorded and attached to its NFT. This makes the entire lifecycle of a product:
 
@@ -93,7 +93,7 @@ In traditional manufacturing, product lifecycle data is fragmented across:
 |------|------|--------|
 | Manikant Kumar | Smart Contract & Blockchain | [@manikantbindass](https://github.com/manikantbindass) |
 | Abhijeet Ranjan | IIoT Integration & Architecture | [@35qu4r3d](https://github.com/35qu4r3d) |
-| Dhruv Maji | dApp Frontend & Documentation | [@Dhruv4848I](https://github.com/Dhruv4848I) |
+| Dhruv Maji | dApp Frontend & Documentation | [@Dhruv4848l](https://github.com/Dhruv4848l) |
 
 ---
 
@@ -182,13 +182,13 @@ The full system connects physical machines all the way to autonomous decision-ma
 flowchart LR
     Physical["🏭 Physical Machine\n/ Component"] --> Edge["📡 IIoT Edge\nGateway"]
     Edge --> Data["📊 Data Acquisition\nLayer"]
-    Data --> Chain["⛓️ IOTA EVM\nDPP NFT Contract"]
+    Data --> Chain["⛓️ IOTA EVM\nDApp NFT Contract"]
     Chain --> NFT["🪙 Lifecycle\nNFT Passport"]
     NFT --> Analytics["🤖 Prognosis\n& Diagnosis"]
     Analytics --> Semantics["🧠 Ontology /\nSemantic Layer"]
     Semantics --> Metaverse["🌐 Metaverse\nValidation"]
     Metaverse --> Action["⚡ Closed-loop\nPhysical Action"]
-    NFT -. "📦 IPFS CID" .-> Metadata["🗄️ DPP Metadata\nJSON"]
+    NFT -. "📦 IPFS CID" .-> Metadata["🗄️ DApp Metadata\nJSON"]
 
     style Chain fill:#7c3aed,color:#fff
     style NFT fill:#06b6d4,color:#fff
@@ -244,7 +244,7 @@ The contract at `contracts/contracts/ManufacturingLifecycleDPP.sol` is the **hea
 │   └── scripts/              Deployment scripts
 ├── 📚 docs/                  Design and integration documentation
 ├── 📐 diagrams/              Mermaid architecture diagrams
-├── 🗄️  schemas/              JSON schema for DPP NFT metadata
+├── 🗄️  schemas/              JSON schema for DApp NFT metadata
 ├── 🔧 scripts/               Metadata generation utilities
 └── 🖼️  assets/               Architecture graphs and reference images
 ```
@@ -323,10 +323,10 @@ npm run dev
 <!-- Footer animation — self-hosted -->
 <img src="assets/footer.svg" alt="footer wave" width="100%"/>
 
-<p>Made with ❤️ by the IOTA DPP Team &nbsp;·&nbsp;
+<p>Made with ❤️ by the IOTA DApp Team &nbsp;·&nbsp;
 <a href="https://github.com/manikantbindass">@manikantbindass</a> &nbsp;·&nbsp;
 <a href="https://github.com/35qu4r3d">@35qu4r3d</a> &nbsp;·&nbsp;
-<a href="https://github.com/Dhruv4848I">@Dhruv4848I</a>
+<a href="https://github.com/Dhruv4848l">@Dhruv4848l</a>
 </p>
 
 </div>
