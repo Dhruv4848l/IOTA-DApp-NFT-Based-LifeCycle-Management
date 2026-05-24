@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/iota-dpp-metadata.schema.json",
+  "title": "IOTA Digital Product Passport Metadata",
+  "type": "object",
+  "required": [
+    "name",
+    "description",
+    "serialNumber",
+    "manufacturer",
+    "currentLifecycleStage",
+    "nftKind",
+    "createdAt"
+  ],
+  "properties": {
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "serialNumber": { "type": "string" },
+    "manufacturer": { "type": "string" },
+    "materialBatch": { "type": "string" },
+    "heatNumber": { "type": "string" },
+    "nftKind": {
+      "type": "string",
+      "enum": [
+        "Product",
+        "Machine",
+        "Maintenance",
+        "Quality",
+        "Skill",
+        "SupplyChain",
+        "Carbon"
+      ]
+    },
+    "currentLifecycleStage": {
+      "type": "string",
+      "enum": [
+        "RawMaterial",
+        "ManufacturingAndInspection",
+        "QualityAssurance",
+        "SupplyChain",
+        "InService",
+        "Maintenance",
+        "EndOfLife"
+      ]
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "physicalBinding": {
+      "type": "object",
+      "properties": {
+        "qrPayload": { "type": "string" },
+        "nfcTagId": { "type": "string" },
+        "machineId": { "type": "string" }
+      }
+    },
+    "semantic": {
+      "type": "object",
+      "properties": {
+        "ontologyUri": { "type": "string" },
+        "rdfClass": { "type": "string" },
+        "knowledgeGraphNode": { "type": "string" },
+        "reasoningResultUri": { "type": "string" }
+      }
+    },
+    "analytics": {
+      "type": "object",
+      "properties": {
+        "modelVersion": { "type": "string" },
+        "remainingUsefulLife": { "type": "number" },
+        "anomalyScore": { "type": "number" },
+        "rootCause": { "type": "string" },
+        "recommendation": { "type": "string" }
+      }
+    },
+    "metaverseValidation": {
+      "type": "object",
+      "properties": {
+        "scenarioId": { "type": "string" },
+        "result": { "type": "string" },
+        "riskScore": { "type": "number" },
+        "artifactUri": { "type": "string" }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["eventType", "timestamp", "artifactHash"],
+        "properties": {
+          "eventType": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "artifactUri": { "type": "string" },
+          "artifactHash": { "type": "string" },
+          "submittedBy": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+stateDiagram-v2
+    [*] --> RawMaterial
+    RawMaterial --> ManufacturingInspection
+    ManufacturingInspection --> QualityAssurance
+    QualityAssurance --> SupplyChain
+    SupplyChain --> InService
+    InService --> Maintenance
+    Maintenance --> InService
+    InService --> EndOfLife
+    Maintenance --> EndOfLife
+    EndOfLife --> [*]
+
