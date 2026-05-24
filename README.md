@@ -1,8 +1,14 @@
-# IOTA DPP NFT Lifecycle Management
+<div align="center">
+  <h1>🚀 IOTA DPP NFT Lifecycle Management</h1>
+  <p><b>Bridging Physical Manufacturing with Immutable Web3 Digital Twins</b></p>
+  <p><i>A cutting-edge NFT-based lifecycle management layer for Semantic Integrated IIoT Manufacturing Systems.</i></p>
+</div>
 
-This repository contains the UFG project slice for **Blockchain Supported Ontology and Semantic Integrated IIoT Enabled Manufacturing System**.
+---
 
-The UFG team contribution is the **NFT-based lifecycle management layer**. It binds physical manufacturing assets to Digital Product Passport NFTs on IOTA EVM, stores lifecycle metadata on IPFS-compatible storage, and exposes verifiable provenance for the other project layers: IIoT acquisition, analytics, ontology/semantic reasoning, metaverse validation, and closed-loop execution.
+Welcome to the future of **Digital Product Passports (DPP)**. This repository houses a state-of-the-art **Web3 infrastructure** that securely binds physical manufacturing assets to immutable NFTs on the **IOTA EVM**. 
+
+By leveraging decentralized storage (IPFS) and deterministic Smart Contracts, we provide a cryptographically secure, verifiable provenance layer. This architecture acts as the ultimate truth anchor across advanced industrial ecosystems—powering IIoT data acquisition, AI analytics, ontology/semantic reasoning, metaverse validation, and autonomous closed-loop execution. ⚡️
 
 ## Team
 
